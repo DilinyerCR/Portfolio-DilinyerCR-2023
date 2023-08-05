@@ -67,23 +67,3 @@ img3.addEventListener("mouseleave", () => {
 
 
 
-
-
-
-
-
-
-
-// images.forEach((img) => {
-//   img.addEventListener("mouseenter", () => {
-//     img.style.transform = "translateY(-75%)";
-//     img.style.transition = "transform 6s ease-in-out 0.3s";
-//   });
-
-//   img.addEventListener("mouseleave", () => {
-//     img.style.transform = "translateY(0%)";
-//     img.style.transition = "transform 4s ease-in-out 0.2s";
-//   })
-// });
-
-
