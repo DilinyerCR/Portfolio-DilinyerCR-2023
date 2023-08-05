@@ -92,6 +92,7 @@ i {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 99;
 }
 
 .header_name-container {
@@ -317,13 +318,19 @@ h1 {
 }
 
 .project-img-container {
+    height: 300px;
     border-radius: 14px;
     box-shadow: 1px 1px 8px var(--boxes-shadow);
+    position: relative;
+    overflow: hidden;
 }
 
 .project-img-container img {
     width: 100%;
     border-radius: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
     /* box-shadow: 1px 1px 8px var(--boxes-shadow); */
 }
 
@@ -631,10 +638,10 @@ i:hover {
     transition: 0.3s;
 }
 
-.project-img-container:hover {
+/* .project-img-container:hover {
     transform: scale(1.02);
     transition: 0.6s;
-}
+} */
 
 .contact-box_write-me p:hover,
 .project-code-web a:hover {

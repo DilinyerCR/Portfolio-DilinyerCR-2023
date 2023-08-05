@@ -4,6 +4,10 @@ const closeMenu = document.getElementById("close-icon");
 const menuLinks = document.querySelectorAll("#menu a");
 const body = document.getElementById('body');
 
+const img1 = document.querySelector(".img1");
+const img2 = document.querySelector(".img2");
+const img3 = document.querySelector(".img3");
+
 showMenu.addEventListener("click", () => {
   menu.classList.toggle("show-menu");
 });
@@ -24,3 +28,62 @@ document.addEventListener("click", function (event) {
     menu.classList.remove("show-menu");
   }
 });
+
+
+// !======PROJECT IMG TRANSITION======
+
+// !========IMAGE # 1========
+img1.addEventListener("mouseenter", () => {
+  img1.style.transform = "translateY(-34%)";
+  img1.style.transition = "transform 2s ease-in-out 0.3s";
+})
+
+img1.addEventListener("mouseleave", () => {
+  img1.style.transform = "translateY(0%)";
+  img1.style.transition = "transform 2s ease-in-out 0.2s";
+})
+
+// !========IMAGE # 2========
+img2.addEventListener("mouseenter", () => {
+  img2.style.transform = "translateY(-75%)";
+  img2.style.transition = "transform 6s ease-in-out 0.3s";
+})
+
+img2.addEventListener("mouseleave", () => {
+  img2.style.transform = "translateY(0%)";
+  img2.style.transition = "transform 3s ease-in-out 0.2s";
+})
+
+// !========IMAGE # 3========
+img3.addEventListener("mouseenter", () => {
+  img3.style.transform = "translateY(-54%)";
+  img3.style.transition = "transform 5s ease-in-out 0.3s";
+})
+
+img3.addEventListener("mouseleave", () => {
+  img3.style.transform = "translateY(0%)";
+  img3.style.transition = "transform 2s ease-in-out 0.2s";
+})
+
+
+
+
+
+
+
+
+
+
+// images.forEach((img) => {
+//   img.addEventListener("mouseenter", () => {
+//     img.style.transform = "translateY(-75%)";
+//     img.style.transition = "transform 6s ease-in-out 0.3s";
+//   });
+
+//   img.addEventListener("mouseleave", () => {
+//     img.style.transform = "translateY(0%)";
+//     img.style.transition = "transform 4s ease-in-out 0.2s";
+//   })
+// });
+
+
