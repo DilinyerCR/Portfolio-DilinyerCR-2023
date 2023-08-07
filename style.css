@@ -318,7 +318,7 @@ h1 {
 }
 
 .project-img-container {
-    height: 300px;
+    height: 150px;
     border-radius: 14px;
     box-shadow: 1px 1px 8px var(--boxes-shadow);
     position: relative;
@@ -528,6 +528,7 @@ margin-top: 10px;
      .project-img-container {
         grid-column: 1 / 4;
         grid-row: 1 / 2;
+        height: 230px;
      }
 
 
@@ -615,6 +616,12 @@ margin-top: 10px;
     .project-text-container {
         padding: 0 30px;
      }
+
+
+     /* *=====PORTFOLIO===== */
+    .project-img-container {
+        height: 300px;
+    }
 
 
      /* *=====Contact===== */
