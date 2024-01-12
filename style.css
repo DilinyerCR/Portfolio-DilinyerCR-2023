@@ -334,6 +334,12 @@ h1 {
     /* box-shadow: 1px 1px 8px var(--boxes-shadow); */
 }
 
+/* Para imagenes con poco height */
+.project-img-container .imgheight {
+    width: 100%;
+    height: 100%;
+}
+
 .project-text-container {
     margin-top: 30px;
 }
