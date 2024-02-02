@@ -34,8 +34,8 @@ document.addEventListener("click", function (event) {
 
 // !========IMAGE # 1========
 img1.addEventListener("mouseenter", () => {
-  img1.style.transform = "translateY(-34%)";
-  img1.style.transition = "transform 2s ease-in-out 0.3s";
+  img1.style.transform = "translateY(-62%)";
+  img1.style.transition = "transform 6s ease-in-out 0.3s";
 })
 
 img1.addEventListener("mouseleave", () => {
