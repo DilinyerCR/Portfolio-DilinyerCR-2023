@@ -45,25 +45,25 @@ img1.addEventListener("mouseleave", () => {
 
 // !========IMAGE # 2========
 img2.addEventListener("mouseenter", () => {
-  img2.style.transform = "translateY(-75%)";
-  img2.style.transition = "transform 6s ease-in-out 0.3s";
+  img2.style.transform = "translateY(-45%)";
+  img2.style.transition = "transform 3s ease-in-out 0.3s";
 })
 
 img2.addEventListener("mouseleave", () => {
   img2.style.transform = "translateY(0%)";
-  img2.style.transition = "transform 3s ease-in-out 0.2s";
+  img2.style.transition = "transform 2s ease-in-out 0.2s";
 })
 
 // !========IMAGE # 3========
-img3.addEventListener("mouseenter", () => {
-  img3.style.transform = "translateY(-54%)";
-  img3.style.transition = "transform 5s ease-in-out 0.3s";
-})
+// img3.addEventListener("mouseenter", () => {
+//   img3.style.transform = "translateY(-54%)";
+//   img3.style.transition = "transform 1s ease-in-out 0.3s";
+// })
 
-img3.addEventListener("mouseleave", () => {
-  img3.style.transform = "translateY(0%)";
-  img3.style.transition = "transform 2s ease-in-out 0.2s";
-})
+// img3.addEventListener("mouseleave", () => {
+//   img3.style.transform = "translateY(0%)";
+//   img3.style.transition = "transform 2s ease-in-out 0.2s";
+// })
 
 
 
