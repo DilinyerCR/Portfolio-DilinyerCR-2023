@@ -253,6 +253,10 @@ h1 {
 
 .skills-container {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .frontend-box p {
@@ -261,6 +265,7 @@ h1 {
 }
 
 .frontend-box_skills {
+    min-width: 310px;
     max-width: 550px;
     margin: 10px auto;
     padding: 40px 20px;
@@ -538,9 +543,14 @@ margin-top: 10px;
     
 
      /* *=====SKILLS===== */
-     .frontend-box_skills {
+    .frontend-box_skills {
         grid-template-columns: repeat(3, 1fr);
-     }
+    }
+
+    .skills-container {
+        display: flex;
+        flex-direction: row;
+    }
 
 
      /* *=====PORTFOLIO===== */
@@ -656,6 +666,13 @@ margin-top: 10px;
         padding: 0 30px;
      }
 
+    /* *=====SKILLS===== */
+    .frontend-box_skills {
+        padding: 40px 70px;
+        gap: 40px 45px;
+    }
+
+    
 
      /* *=====PORTFOLIO===== */
     .project-img-container {
