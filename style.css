@@ -380,6 +380,10 @@ margin-top: 10px;
     background-color: var(--project-tech-used-bg);
 }
 
+.primary-paragraph_todo-app {
+    font-size: 1.2rem;
+}
+
 .project-code-web {
     margin-top: 30px;
     display: flex;
